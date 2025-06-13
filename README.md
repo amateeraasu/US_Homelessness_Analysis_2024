@@ -66,11 +66,13 @@ This project analyzes homelessness trends across US states using official data f
 3. **Top 10 States with The Highest Population**
 4. **10 States with The Highest Ratio of Homeless per 100K Population**
 5. **10 States with The Lowest Ratio of Homeless per 100K Population**
+6. **Yearly Change in Overall Homeless Count for 10 States**
    
 ![Alt text for the image](Vizualizations/US_States_Pop_2024.png)
 ![Alt text for the image](Vizualizations/top_10_states_homeless_2024.png)
 ![Alt text for the image](Vizualizations/Top10_Homelessness_Rate100K.png)
 ![Alt text for the image](Vizualizations/Bottom10_Homelessness_Rate100K.png)
+![Alt text for the image](Vizualizations/yearly_trend.png)
 
 ## 🛠️ Technical Implementation
 
