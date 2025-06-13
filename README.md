@@ -88,15 +88,17 @@ pyxlsb  # For reading Excel Binary files
 ```
 ├── data/
 │   ├── raw/
-│   │   └── 2007-2024-PIT-Counts-by-State.xlsb
-│   └── processed/
-│       └── homeless_population_merged.csv
+│      └── 2007-2024-PIT-Counts-by-State.xlsb
 ├── notebooks/
 │   └── Homelessness_US_Analysis.ipynb
 ├── src/
 │   └── analysis.py
 ├── visualizations/
+│   └── US_States_Pop_2024.png
 │   └── top_10_states_homeless_2024.png
+│   └── Top10_Homelessness_Rate100K.png
+│   └── Bottom10_Homelessness_Rate100K.png
+│   └── yearly_trend.png
 ├── README.md
 
 ```
