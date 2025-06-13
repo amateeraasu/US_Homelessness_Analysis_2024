@@ -89,7 +89,7 @@ pyxlsb  # For reading Excel Binary files
 ├── visualizations/
 │   └── top_10_states_homeless_2024.png
 ├── README.md
-└── requirements.txt
+
 ```
 
 ## 🎯 Research Applications
