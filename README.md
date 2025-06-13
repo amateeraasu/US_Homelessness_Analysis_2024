@@ -62,7 +62,7 @@ This project analyzes homelessness trends across US states using official data f
 
 ## 📈 Key Visualizations
 
-1. **Top 10 States by Homeless Population (2024)**: Bar chart showing absolute numbers
+1. **Top 10 States by Homeless Population (2024)**
 3. **Top 10 States with The Highest Population**
 4. **10 States with The Highest Ratio of Homeless per 100K Population**
 5. **10 States with The Lowest Ratio of Homeless per 100K Population**
