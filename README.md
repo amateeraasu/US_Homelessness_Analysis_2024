@@ -131,8 +131,8 @@ This project uses publicly available government data. Please cite original data 
 
 ## 📞 Contact
 
-Linkedin: linkedin.com/in/azhar-kudaibergen/
-Email: kuda.azhar@gmail.com
+- Linkedin: linkedin.com/in/azhar-kudaibergen/
+- Email: kuda.azhar@gmail.com
 ---
 
 **Data Sources**:
