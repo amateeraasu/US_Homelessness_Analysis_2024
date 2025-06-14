@@ -88,11 +88,29 @@ Analysis excludes national totals for accurate state-level comparison
 8. **Homelessness Ratio Per 100K Population by State in 2024 (Heatmap)**
 
 ![Alt text for the image](Vizualizations/US_States_Pop_2024.png)
+- **General Information** on the States Population in 2024
+
 ![Alt text for the image](Vizualizations/top_10_states_homeless_2024.png)
+
+- **Insight**: In 2024, **California and New York** have a significantly larger overall homeless population, totaling 345,103 individuals (187,084 in California and 158,019 in New York). This combined figure represents approximately **44.7% of the entire U.S. homeless population of 771,480**.
+- *My initial expectation* was that New York would have the highest number of homeless people. However, the data clearly shows that California has a significantly larger absolute homeless population in 2024.
+
 ![Alt text for the image](Vizualizations/Top10_Homelessness_Rate100K.png)
+
+- **Insight**: A significant and concerning trend emerges in **Hawaii, Washington D.C., and New York**. In 2024, **nearly 1% of the 100K population** in these areas was **experiencing homelessness**. Specifically, there are approximately 805 homeless individuals per 100,000 residents in Hawaii, 800 per 100,000 in Washington D.C., and 795 per 100,000 in New York, underscoring the severe housing challenges faced by these populations.
+- *This metric reveals a different story! Hawaii is indeed Number 1 for density. New York is in 3rd place, and **Washington state** makes it into the highest 10.*
+  
 ![Alt text for the image](Vizualizations/Bottom10_Homelessness_Rate100K.png)
+
+- **Insight**: **Mississippi** had one of the **lowest** numbers of people experiencing homelessness per 100K population in 2024.
+
 ![Alt text for the image](Vizualizations/yearly_trend.png)
+
+- **Insight**: **California** experienced a **notable fluctuation** in its homeless population **around 2021**. The count reportedly dropped significantly from 162K to 57K, only to rise again to 172K. This dramatic shift prompts questions about the factors at play, particularly concerning the aftermath of the COVID-19 pandemic and its impact on homelessness trends in the state.
+  
 ![Alt text for the image](Vizualizations/Sheltered_VS_Unsheltered.png)
+
+- Insight: While about **66% (124,000 out of 187,000) of California's** homeless population in 2024 was **unsheltered**, over **96%(152,000 out of 158,000) of New York's** homeless were **sheltered**. Interestingly, this means **New York** actually has a **lower** number of unsheltered individuals than **Washington State**, despite New York's much higher overall homeless count.
 
 ## 🛠️ Technical Implementation
 
