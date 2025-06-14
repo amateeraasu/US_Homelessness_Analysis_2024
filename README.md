@@ -31,7 +31,6 @@ This project analyzes homelessness trends across US states using official data f
 - **Source**: Kaggle
 - **URL**: https://www.kaggle.com/datasets/pompelmo/usa-states-geojson/data
 - **Description**: GeoJson encoding for usa states, for map plots
-- **Coverage**: All 50 states, DC, and major US territories (Puerto Rico, Guam, Virgin Islands, Northern Mariana Islands, American Samoa)
 
 
 
