@@ -32,8 +32,6 @@ This project analyzes homelessness trends across US states using official data f
 - **URL**: https://www.kaggle.com/datasets/pompelmo/usa-states-geojson/data
 - **Description**: GeoJson encoding for usa states, for map plots
 
-
-
 ### Data Structure
 - **Total Records**: 56 jurisdictions (50 states + DC + 5 territories)
 - **Key Variables**:
@@ -64,7 +62,7 @@ This project analyzes homelessness trends across US states using official data f
 
 ### Methodology
 - **Data Processing**: Pandas for data manipulation and cleaning
-- **Visualization**: Matplotlib and Seaborn for chart creation
+- **Visualization**: Matplotlib and Seaborn for chart creation, Plotly Express for interactive maps
 - **Statistical Analysis**: Descriptive statistics and data exploration
 
 ## 📈 Key Visualizations
@@ -75,7 +73,9 @@ This project analyzes homelessness trends across US states using official data f
 4. **10 States with The Lowest Ratio of Homeless per 100K Population**
 5. **Yearly Change in Overall Homeless Count for 10 States**
 6. **Sheltered vs. Unsheltered Homeless by States With The Highest Amount of Overall Homeless in 2024**
-   
+7. **Overall Homelessness by State in 2024 (Heatmap)**
+8. **Homelessness Ratio Per 100K Population by State in 2024 (Heatmap)**
+
 ![Alt text for the image](Vizualizations/US_States_Pop_2024.png)
 ![Alt text for the image](Vizualizations/top_10_states_homeless_2024.png)
 ![Alt text for the image](Vizualizations/Top10_Homelessness_Rate100K.png)
@@ -86,12 +86,12 @@ This project analyzes homelessness trends across US states using official data f
 ## 🛠️ Technical Implementation
 
 ### Requirements
-```python
+python
 pandas
 matplotlib
 seaborn
-pyxlsb  # For reading Excel Binary files
-```
+pyxlsb # For reading Excel Binary files
+plotly # For interactive visualizations (heatmaps)
 
 ### Project Structure
 ```
@@ -109,8 +109,8 @@ pyxlsb  # For reading Excel Binary files
 │   └── Bottom10_Homelessness_Rate100K.png
 │   └── yearly_trend.png
 ├── README.md
-
 ```
+
 
 ## 🎯 Research Applications
 
@@ -123,12 +123,9 @@ This analysis can be valuable for:
 
 ## 🔮 Future Analysis Opportunities
 
-1. **Temporal Trends**: Analyze year-over-year changes (2007-2024)
-2. **Per Capita Analysis**: Calculate homelessness rates per 1,000 population
-3. **Regional Analysis**: Group states by geographic regions
-4. **Demographic Breakdown**: Analyze by age, family status, and veteran status
-5. **Correlation Studies**: Examine relationships with housing costs, unemployment, weather patterns
-6. **Predictive Modeling**: Forecast future trends based on historical data
+1. **Demographic Breakdown**: Analyze by age, family status, and veteran status
+2. **Correlation Studies**: Examine relationships with housing costs, unemployment, weather patterns
+3. **Predictive Modeling**: Forecast future trends based on historical data
 
 ## 📊 Data Quality Notes
 
