@@ -76,10 +76,15 @@ Analysis excludes national totals for accurate state-level comparison
 - **Visualization**: Matplotlib and Seaborn for chart creation, Plotly Express for interactive maps
 - **Statistical Analysis**: Descriptive statistics and data exploration
 
+
+
+
+
+
 ## 📈 Key Visualizations
 
-1. **Top 10 States by Homeless Population (2024)**
-2. **Top 10 States with The Highest Population**
+1. **10 States With The Highest Homeless Population (2024)**
+2. **10 States with The Highest Population**
 3. **10 States with The Highest Ratio of Homeless per 100K Population**
 4. **10 States with The Lowest Ratio of Homeless per 100K Population**
 5. **Yearly Change in Overall Homeless Count for 10 States**
