@@ -2,6 +2,8 @@
 
 ## 📋 Project Overview
 
+The idea for this research came to me unexpectedly. I was honing my Python Pandas skills using an outdated homelessness dataset on DataCamp and became curious about the current situation. Moving to Seattle recently, I noticed a significant number of homeless individuals, which led me to assume that Washington state might have more homeless people than New York. This project became an opportunity to validate my expectations with real-world data while simultaneously practicing my Python skills.
+
 This project analyzes homelessness trends across US states using official data from the US Department of Housing and Urban Development (HUD) and US Census Bureau population estimates. The analysis aims to provide insights into the distribution and scale of homelessness across different states, which can inform policy decisions and resource allocation for addressing homelessness.
 
 ### Key Findings
@@ -50,15 +52,24 @@ This project analyzes homelessness trends across US states using official data f
 - Merged homeless data with population estimates
 
 #### 2. Top States Analysis
-- **Visualization**: Bar chart of top 10 states by absolute homeless population
+- **Initial Observation vs. Reality**: My partner and I initially expected New York to have the most homeless people. However, the analysis revealed that California holds the highest absolute homeless population in 2024. This was a significant and unexpected finding, clearly visualized in the bar chart of top 10 states by absolute homeless population.
 - **Key Insights**:
-  - Identified states with highest homeless populations
-  - Clear visualization of the disparity between states
-  - Analysis excludes national totals for accurate state-level comparison
+Identified states with highest homeless populations
+Clear visualization of the disparity between states
+Analysis excludes national totals for accurate state-level comparison
+
 
 #### 3. Population Correlation Preparation
 - Merged homeless population data with 2024 Census population estimates
 - Created combined dataset for correlation analysis between state population size and homeless counts
+- **Homelessness Rate per 100K Population**: To gain a deeper understanding, I calculated the homelessness ratio per 100,000 people using data from official governmental websites. And what would you expect?
+- **Hawaii** is ranked number one in 2024 for the density of homeless individuals.
+- **New York** is in third place for the highest homelessness rate per 100K population.
+- **Washington** state is also in the top 10 for homelessness rate per 100K population, confirming my initial observation about Seattle's situation.
+
+#### 4. Sheltered vs. Unsheltered Analysis
+- **An Unexpected Discrepancy**: Another unexpected finding that caught our attention was the amount of sheltered versus unsheltered people. While roughly half of the homeless population in California in 2024 was unsheltered, more than 80% of homeless individuals in New York were sheltered. This leaves New York with even fewer unsheltered people than Washington state, despite its higher absolute homeless population.
+
 
 ### Methodology
 - **Data Processing**: Pandas for data manipulation and cleaning
