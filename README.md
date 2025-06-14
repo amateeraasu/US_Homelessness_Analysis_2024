@@ -74,7 +74,7 @@ This project analyzes homelessness trends across US states using official data f
 ![Alt text for the image](Vizualizations/Top10_Homelessness_Rate100K.png)
 ![Alt text for the image](Vizualizations/Bottom10_Homelessness_Rate100K.png)
 ![Alt text for the image](Vizualizations/yearly_trend.png)
-![Alt text for the image](Sheltered_VS_Unsheltered.png)
+![Alt text for the image](Vizualizations/Sheltered_VS_Unsheltered.png)
 
 ## 🛠️ Technical Implementation
 
